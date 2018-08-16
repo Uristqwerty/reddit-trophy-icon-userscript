@@ -65,7 +65,7 @@ script.innerHTML = '(' + (function() {
             div.insertAdjacentHTML('beforeend', `<img src='${image_dat}' title='${trophy.name}'>`);
           } else if(trophy.name.startsWith('Gilding X')) {
             let image_dat = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABGklEQVQ4jZ1TW07DMBD0eQDRFChppYQ05mEUgVRSFxAIGU6Q3MDH8AmQrErcI+InUsV1ouGHJHZejfjwx8zuzu7OykSlHCrlWHkO7ueHKLFKOaL5EeKLqcXFvoPn8LTCRAqGXNN/PSkYyPvtArmmKLKkM6nkJdDiN+EM5CPyeouGBHNNsfYmICrl9UiNLl2FpoBKuS1gBoss2Ss4ysQiS6zuJpaCgTyGZ70T7Fvn9doFebtxBx1vcqYwD05sD3JN8fN1OYjNV5k4ZvTddjnORLOjBLDbLvH9GXSeUQoGEvtOS6DIklbHpnCuKVb+FCQ6P7ACXTv3rfVy5dYmDp2tT6zyQAqG9d83LbEUDHeLYzx4E4t7ojNsgjrvF+LBpX0rV4x4AAAAAElFTkSuQmCC';
-            div.insertAdjacentHTML('beforeend', `<img src='${image_dat}' title='${trophy.name} (or higher!)'>`);
+            div.insertAdjacentHTML('beforeend', `<img src='${image_dat}' title='${trophy.name}'>`);
           }
         }
       },
